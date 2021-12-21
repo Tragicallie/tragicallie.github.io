@@ -1,0 +1,182 @@
+<!-- Website coding for the html course
+     Created in December 2021
+     by JW -->
+
+<!doctype html>
+<html lang="en">
+
+    <head>
+    <title>My Special Family Members!</title>
+
+<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+<!-- Link to the custom CSS -->      
+    <link rel="stylesheet" href="styles/custom.css">
+      
+  </head>
+ 
+    <body>
+
+<!-- Navbar coding -->        
+     <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">My Special Family Members</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav justify-content-around" style="width: 100%">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="newfoundland.html">Newfoundlands</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="foxhound.html">Foxhounds</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="kingShepherd.html">King Shepherds</a>
+          </li> 
+          <li class="nav-item">
+            <a class="nav-link" href="otherFamilyMembers.html">Other Family Members</a>
+          </li>
+            
+         <!--  <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id<"navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Other Family</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="kingShepherd.html">King Shepherds</a>
+              <a class="dropdown-item" href="mixedBreed.html">Mixed Breeds</a>
+              <a class="dropdown-item" href="cat.html">Cats</a>
+            </div>
+          </li> -->
+        </ul>
+      </div>
+     </nav>   
+ 
+<!-- Javascript for the heading on the Home screen -->
+    <script src="scripts/main.js"></script>
+
+        <h3>About My Special Family Members</h3>
+
+        <!-- Information on my special family members -->
+        
+            <p>My special family members are either owned by me or my immediate family & include the following:
+
+                <ol>
+                    <li>Sally, a Landseer Newfoundland</li>
+                    <li>Bob & Marley, Black Newfoundlands</li>
+                    <li>Sunny, a Foxhound</li>
+                    <li>Bailey, a King Shepherd</li>
+                    <li>Tony, a Mixed Breed dog</li>
+                    <li>Jeannie, a Toy Poodle</li>
+                    <li>Abby, a Golden Doodle</li>
+                    <li>Jaygee, a Calico pussycat</li>
+                    <li>Princess Jan, Buddy & Socks, gray & white kitties</li>
+                    <li>Chewie the pussycat</li>
+                </ol>
+            </p>
+
+    <table>
+        <tr>
+            <th>Breed</th>
+            <th>Temperament</th>
+            <th>Size</th>
+            <th>Lifespan</th>
+        </tr>
+        
+        <tr>
+            <td>Newfoundland</td>
+            <td>Gentle, loyal, protective</td>
+            <td>Large</td>
+            <td>8 to 14 years</td>
+        </tr>
+
+        <tr>
+            <td>Foxhound</td>
+            <td>Gentle, loyal</td>
+            <td>Medium</td>
+            <td>10 to 15 years</td>
+        </tr>   
+     
+        <tr>
+            <td>King Shepherd</td>
+            <td>Gentle, loyal</td>
+            <td>Larger than the Foxhound</td>
+            <td>10 to 11 years</td>
+        </tr>
+        
+        <tr>
+            <td>Mixed Breed</td>
+            <td>Depends on the mix</td>
+            <td>Small to large</td>
+            <td>Depends on the mix of the breeds</td>
+        </tr>
+        
+        <tr>
+            <td>Toy Poodle</td>
+            <td>Energetic</td>
+            <td>Small</td>
+            <td>12 to 15 years</td>
+        </tr>
+        
+        <tr>
+            <td>Golden Doodle</td>
+            <td>Energetic</td>
+            <td>Small</td>
+            <td>10 to 15 years</td>
+        </tr>
+        
+        <tr>
+            <td>Cats</td>
+            <td>Docile, lay around a lot</td>
+            <td>Varies</td>
+            <td>12 to 18 years</td>
+        </tr>        
+    </table>
+<br>
+<br>
+    <!-- Coding for form with radio buttons -->
+
+    <form>
+        <fieldset>
+            <legend><strong>Which page do you like best?</strong></legend>
+            <p>
+                <input type="radio" name="home" id="home" value="home">
+                <label for="home">Home</label>
+            </p>
+            <p>
+                <input type="radio" name="newfoundlands" id="newfoundlands" value="newfoundlands">
+                <label for="newfoundlands">Newfoundlands</label>
+            </p>
+            <p>
+                <input type="radio" name="foxhounds" id="foxhounds" value="foxhounds">
+                <label for="foxhounds">Foxhounds</label>
+            </p>
+            <p>
+                <input type="radio" name="king shepherd" id="king shepherd" value="king shepherd">
+                <label for="king shepherd">King Shepherds</label>
+            </p>
+            <p>
+                <input type="radio" name="other family" id="other family" value="other family">
+                <label for="other family">Other family members</label>
+            </p>
+        </fieldset>
+    </form>
+    
+    <br>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    
+    
+    
+  </body>
+</html>

@@ -1,0 +1,76 @@
+/* Website coding for the html course
+   Created in December 2021
+   by JW */
+
+/* Custom Style Sheet for all pages */
+
+/* Styling for the main heading */
+h1{
+    margin: 35px 35px 35px 35px;
+    color: black;
+    border: 5px solid black;
+    text-align: center;
+    border-width: wide;  
+    background-color: steelblue;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+/* Background color for the body */
+body{
+    background-color: lightsteelblue;
+}
+
+/* Styling for the other headings & the paragraphs */
+h2, h3, h5, p {
+    margin: 0px 25px 0px 25px;
+    padding: 0px 0 25px 20px; 
+    font-weight: bold;
+    text-align: left;
+    font-family: sans-serif;
+}
+
+/* Styling for the table */
+table {
+    width: 1200px;
+    border-collapse: collapse;
+    border: 2px solid rgb(200,200,200);
+    letter-spacing: 3px;
+    font-family: sans-serif;
+    margin: 0 0 0 100px;
+}
+    
+th, td {
+    border: 2px solid black;
+    text-align: left;
+}
+
+th {
+    text-transform: uppercase;
+    background-color: steelblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 40 rem;
+    font-weight: bold
+}
+
+td {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 1 rem;
+}
+
+caption {
+    padding: 30px;
+}
+
+/* Styling for the radio button form */
+
+form {
+    margin: auto;
+    width: 500px;
+    padding: 1 em;
+    border: 2px solid black;
+    border-radius: 1em;
+}
